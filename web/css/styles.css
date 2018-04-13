@@ -1943,6 +1943,16 @@ pre code {
     .offset-xl-11 {
         margin-left: 91.66667%;
     }
+
+    .demo-heading {
+      letter-spacing: 40px;
+      background-color: #848484;
+      opacity: 0.6;
+    }
+
+    .name {
+      opacity: 1;
+    }
 }
 
 .table {
@@ -12395,6 +12405,8 @@ img.img-shadow,
 .header.header-transparent .extra-nav > ul > li > a,
 .header.header-transparent .inner-nav > ul > li > a {
     color: #fff;
+    text-shadow: 0 -1px white;
+    font-size: 1em;
 }
 
 .header.header-transparent .extra-nav > ul > li > a:hover,
@@ -12655,7 +12667,7 @@ img.img-shadow,
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    font-size: .5rem;
+    font-size: .7rem;
     content: "\e649";
     transition: all .3s ease-in-out;
 }
@@ -12858,7 +12870,7 @@ img.img-shadow,
 .bg-gray {
     background-color: #f8f8f8;
 }
-
+/*
 .overlay-background {
     background: #333;
     position: absolute;
@@ -12870,9 +12882,9 @@ img.img-shadow,
 
 .overlay-background.overlay-gradient {
     background: #505cfd;
-    background: linear-gradient(to left, #00dbde, #505cfd);
+    background: linear-gradient(to left, #00dbde, #FE2E64);
 }
-
+*/
 .divider-top {
     border-top: 1px solid #f0f0f0;
 }
@@ -14145,17 +14157,9 @@ body.off-canvas-sidebar-open:after {
     font-size: 92px;
 }
 
-.module-cover .demo-heading span {
-    letter-spacing: -18px;
-}
-
 @media (max-width: 991.98px) {
     .module-cover .demo-heading {
         font-size: 44px;
-    }
-
-    .module-cover .demo-heading span {
-        letter-spacing: -8px;
     }
 }
 
